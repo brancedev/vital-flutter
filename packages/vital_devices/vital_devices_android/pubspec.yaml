@@ -24,12 +24,12 @@ dependencies:
   vital_core:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_core/vital_core
   vital_devices_platform_interface:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_devices/vital_devices_platform_interface
 dev_dependencies:
   flutter_test:
@@ -40,10 +40,10 @@ dependency_overrides:
   vital_core:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_core/vital_core
   vital_devices_platform_interface:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_devices/vital_devices_platform_interface

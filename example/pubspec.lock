@@ -464,7 +464,7 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/vital_core/vital_core"
-      ref: fastic_v1
+      ref: fastic_v3
       resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
       url: "https://github.com/brancedev/vital-flutter.git"
     source: git
@@ -497,7 +497,7 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/vital_devices/vital_devices"
-      ref: fastic_v1
+      ref: fastic_v3
       resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
       url: "https://github.com/brancedev/vital-flutter.git"
     source: git
@@ -530,7 +530,7 @@ packages:
     dependency: "direct main"
     description:
       path: "packages/vital_health/vital_health"
-      ref: fastic_v1
+      ref: fastic_v3
       resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
       url: "https://github.com/brancedev/vital-flutter.git"
     source: git

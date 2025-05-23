@@ -17,17 +17,17 @@ dependencies:
   vital_core:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_core/vital_core
   vital_health:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_health/vital_health
   vital_devices:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_devices/vital_devices
   chopper: ^7.1.1
 dev_dependencies:
@@ -45,15 +45,15 @@ dependency_overrides:
   vital_core:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_core/vital_core
   vital_health:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_health/vital_health
   vital_devices:
     git:
       url: https://github.com/brancedev/vital-flutter.git
-      ref: fastic_v1
+      ref: fastic_v3
       path: packages/vital_devices/vital_devices
