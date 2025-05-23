@@ -3,6 +3,7 @@ description: The Vital Health package allowing fitness apps linking with tryvita
 version: 4.5.3
 homepage: https://tryvital.io/
 repository: https://github.com/tryVital/vital-flutter
+publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -21,12 +22,50 @@ dependencies:
     sdk: flutter
   fimber: ^0.6.6
   json_annotation: ^4.6.0
-  vital_core: ^4.5.3
-  vital_health_platform_interface: ^4.5.3
-  vital_health_ios: ^4.5.3
-  vital_health_android: ^4.5.3
+  vital_core:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core
+  vital_health_platform_interface:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_health/vital_health_platform_interface
+  vital_health_ios:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_health/vital_health_ios
+  vital_health_android:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_health/vital_health_android
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
   build: ^2.1.1
+
+dependency_overrides:
+  vital_core:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core
+  vital_health_platform_interface:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_health/vital_health_platform_interface
+  vital_health_ios:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_health/vital_health_ios
+  vital_health_android:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_health/vital_health_android

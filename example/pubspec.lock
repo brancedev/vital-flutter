@@ -463,87 +463,102 @@ packages:
   vital_core:
     dependency: "direct main"
     description:
-      path: "../packages/vital_core/vital_core"
-      relative: true
-    source: path
-    version: "4.5.2"
+      path: "packages/vital_core/vital_core"
+      ref: fastic_v1
+      resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
+      url: "https://github.com/brancedev/vital-flutter.git"
+    source: git
+    version: "4.5.3"
   vital_core_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_core/vital_core_android"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_core_android
+      sha256: "233595851b7cac71320a804a1af71e2656e8790d6b70d2631095651289743197"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_core_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_core/vital_core_ios"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_core_ios
+      sha256: d66307bed87d486a01b76b15f7eb50faa2d085afcf6a72beb7eb6f8fc16a64a1
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_core_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_core/vital_core_platform_interface"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_core_platform_interface
+      sha256: "77e15cd9db14be54336b1590e5453310782c7626856a6e20b57b1f42b7a22597"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_devices:
     dependency: "direct main"
     description:
-      path: "../packages/vital_devices/vital_devices"
-      relative: true
-    source: path
-    version: "4.5.2"
+      path: "packages/vital_devices/vital_devices"
+      ref: fastic_v1
+      resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
+      url: "https://github.com/brancedev/vital-flutter.git"
+    source: git
+    version: "4.5.3"
   vital_devices_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_devices/vital_devices_android"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_devices_android
+      sha256: "5aa324fd507a0f40aa85ce7df236e4ff8d009a19e8a451dd1881470f7a81be10"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_devices_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_devices/vital_devices_ios"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_devices_ios
+      sha256: "81942d5b383d1cbaed4636435fcd08f619905d5e40ea4e60ae06cffd50f80116"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_devices_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_devices/vital_devices_platform_interface"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_devices_platform_interface
+      sha256: "5e99c8841932a20576e9c4174e5b2fd446307f0b5c573d359c04c099b0fa10c6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_health:
     dependency: "direct main"
     description:
-      path: "../packages/vital_health/vital_health"
-      relative: true
-    source: path
-    version: "4.5.2"
+      path: "packages/vital_health/vital_health"
+      ref: fastic_v1
+      resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
+      url: "https://github.com/brancedev/vital-flutter.git"
+    source: git
+    version: "4.5.3"
   vital_health_android:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_health/vital_health_android"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_health_android
+      sha256: b61ed926b0e832dacb726db11728e1a2eaddbe54803dd61552adc7f290cc4548
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_health_ios:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_health/vital_health_ios"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_health_ios
+      sha256: a1fd4f5e3981d0b9152d8688ae45fd027c81e85e8e0678138236fc2d62cd7ee2
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vital_health_platform_interface:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../packages/vital_health/vital_health_platform_interface"
-      relative: true
-    source: path
-    version: "4.5.2"
+      name: vital_health_platform_interface
+      sha256: "21a44e0ecfd2b3d8ce9e7fb31af0a2cc827efb16e08e786059f95366bacfe5ef"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.5.3"
   vm_service:
     dependency: transitive
     description:

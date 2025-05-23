@@ -648,24 +648,30 @@ packages:
   vital_core_android:
     dependency: "direct main"
     description:
-      path: "../vital_core_android"
-      relative: true
-    source: path
-    version: "4.5.2"
+      path: "packages/vital_core/vital_core_android"
+      ref: fastic_v1
+      resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
+      url: "https://github.com/brancedev/vital-flutter.git"
+    source: git
+    version: "4.5.3"
   vital_core_ios:
     dependency: "direct main"
     description:
-      path: "../vital_core_ios"
-      relative: true
-    source: path
-    version: "4.5.2"
+      path: "packages/vital_core/vital_core_ios"
+      ref: fastic_v1
+      resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
+      url: "https://github.com/brancedev/vital-flutter.git"
+    source: git
+    version: "4.5.3"
   vital_core_platform_interface:
     dependency: "direct main"
     description:
-      path: "../vital_core_platform_interface"
-      relative: true
-    source: path
-    version: "4.5.2"
+      path: "packages/vital_core/vital_core_platform_interface"
+      ref: fastic_v1
+      resolved-ref: "9baa739360b852cb5423c5edd4594120760b5ef8"
+      url: "https://github.com/brancedev/vital-flutter.git"
+    source: git
+    version: "4.5.3"
   vm_service:
     dependency: transitive
     description:

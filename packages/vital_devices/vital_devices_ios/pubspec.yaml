@@ -3,6 +3,7 @@ description: The ios implementation of Vital Devices.
 version: 4.5.3
 homepage: https://tryvital.io/
 repository: https://github.com/tryVital/vital-flutter
+publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -18,10 +19,30 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  vital_core: ^4.5.3
-  vital_devices_platform_interface: ^4.5.3
+  vital_core:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core
+  vital_devices_platform_interface:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_devices/vital_devices_platform_interface
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
   fimber: ^0.6.6
+
+dependency_overrides:
+  vital_core:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core
+  vital_devices_platform_interface:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_devices/vital_devices_platform_interface

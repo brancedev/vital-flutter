@@ -3,6 +3,7 @@ description: The official Flutter package for Vital APIs allowing fitness apps l
 version: 4.5.3
 homepage: https://tryvital.io/
 repository: https://github.com/tryVital/vital-flutter
+publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -24,9 +25,21 @@ dependencies:
   json_annotation: ^4.8.1
   url_launcher: ">=6.2.3 <7.0.0"
   fimber: ^0.6.6
-  vital_core_platform_interface: ^4.5.3
-  vital_core_ios: ^4.5.3
-  vital_core_android: ^4.5.3
+  vital_core_platform_interface:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core_platform_interface
+  vital_core_ios:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core_ios
+  vital_core_android:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core_android
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -35,3 +48,21 @@ dev_dependencies:
   build_runner: ^2.4.6
   chopper_generator: ^7.0.5+1
   json_serializable: ^6.1.1
+
+
+dependency_overrides:
+  vital_core_platform_interface:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core_platform_interface
+  vital_core_ios:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core_ios
+  vital_core_android:
+    git:
+      url: https://github.com/brancedev/vital-flutter.git
+      ref: fastic_v1
+      path: packages/vital_core/vital_core_android
